@@ -1,0 +1,60 @@
+<!---- Inicio da pagina com definicoes padrao do HTML5, estilo em CSS e meu nome no titulo ---->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danyel Passos</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+
+<body>
+
+    <!---- Menu de navegacao com as abas ---->
+    <header>
+        <nav>
+            <ul>
+                <li class="background-azul"><a href="index.html">Sobre mim</a></li>
+                <li class="background-azul"><a href="formacao.html">Formação</a></li>
+                <li class="background-azul"><a href="portfolio.html">Portfólio</a></li>
+                <li class="background-red"><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!---- Parte principal padrao com foto ---->
+    <main>
+        <div class="padrao">
+            <br><br>
+            <img src="assets/eu.png" alt="Danyel Henrique Passos de Medeiros">
+            <br><br>
+            <h2>Entre em Contato comigo!</h2>
+            <br><br>
+        </div>
+        
+        <!---- Criacao do formulario de contato e definicoes de titulos ---->
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <!---- Parte do rodape com informacoes de criacao ---->
+    <footer>
+    <div class="padrao">
+        <br><br><br>
+        <h5> Desenvolvido por Danyel Passos.  2024 </h5>
+    </div>
+    </footer>
+
+</body>
+</html>
